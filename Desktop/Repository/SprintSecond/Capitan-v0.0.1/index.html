@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Sprint2</title>
+</head>
+<body>
+    
+  <div align=center>
+  <img src="img/codigo-que-transforma.png" >
+  </div>
+  <div class="lab">
+    <h3>¿Qué es Laboratoria?</h3>
+      <p class ="lab"> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.    </p>
+
+
+    <h4><strong>Temas</strong></h4>
+  <!--MIS 3 BOTONES -->
+    <input type="button" value="Sprint1" onclick="mostrarOcultar1('sprint-1')" >
+    <input type="button" value="Sprint2" onclick="mostrarOcultar2('sprint-2')" >
+    <input type="button" value="Sprint3" onclick="mostrarOcultar3('sprint-3')" >
+  </div>
+  <!-- SPRINT #1 -->
+  <div id="sprint-1">
+    <br>
+    <h4>Sprint 1 : Introducción a JavaSript</h4>
+      <ol>
+        <li>Fundamentos de Programación</li>
+        <li>Funciones</li>
+        <li>Arreglos</li>
+        <li>Objetos</li>
+      </ol><hr>
+    <h2>Quiz</h2>
+
+    <div id="respuesta-1"></div>
+
+    <div id="div-quiz-1">
+      <div>
+        <h3> Existen dos tipos de funciones</h3>
+        <input type="radio" name="r-s1"  class="quiz-1"> Expresadas y declaradas <br>
+        <input type="radio" name="r-s1"  class="quiz-1"> Explícitas y declaradas <br>
+        <input type="radio" name="r-s1"  class="quiz-1"> Expresadas y derivadas  <br>
+      </div>
+      <div>
+        <h4> Elije una propiedad de los arreglos</h4>
+        <input type="radio" name="r-s2"  class="quiz-1"> clear <br>
+        <input type="radio" name="r-s2"  class="quiz-1"> pop   <br>
+        <input type="radio" name="r-s2"  class="quiz-1"> add   <br>
+      </div>
+      <div>
+        <h3> Un objeto tiene _ _ _ _ _ _ y _ _ _ _ _ _ _</h3>
+        <input type="radio" name="r-s3"  class="quiz-1"> números y letras       <br>
+        <input type="radio" name="r-s3"  class="quiz-1"> partes y validaciones  <br>
+        <input type="radio" name="r-s3"  class="quiz-1"> propiedades y valores  <br>
+      </div><br>
+
+      <input type="submit" value="ENVIAR" onclick="respuestan1()">
+
+    </div>
+  </div>
+
+
+<!-- SPRINT #2 -->
+<div id="sprint-2">
+  <br>
+  <h4>Sprint 2 : Introducción al desarrollo web y contrucción de páginas web</h4>
+    <ol>
+      <li>Ciclo de vida del desarrollo web y arquitectura básica cliente/servidor/ Configuración del ambiente de trabajo e introduccion a git</li>
+      <li>HTML y Javascript en el navegador</li>
+      <li>Manejo de comandos básicos de git en la terminal</li>
+      <li>Pruebas unitarias</li>
+      <li>Git/Resolucion de conflictos/Branching model</li>
+      <li>DOM</li>
+    </ol><hr>
+  <h2>Quiz</h2>
+
+  <div id="respuesta-2"></div>
+
+
+  <div id="div-quiz-2">
+    <div>
+      <h3> ¿Cuál es el comando para iniciar un repositorio desde la consola?</h3>
+      <input type="radio" name="r-s1"  class="quiz-2"> git init .   <br>
+      <input type="radio" name="r-s1"  class="quiz-2"> git init     <br>
+      <input type="radio" name="r-s1"  class="quiz-2"> git init add <br>
+    </div>
+    <div>
+      <h4> ¿Cuál es la finalidad de hacer una prueba unitaria</h4>
+      <input type="radio" name="r-s2"  class="quiz-2"> Comprobar que el código funciona correctamente     <br>
+      <input type="radio" name="r-s2"  class="quiz-2"> Darle valores a los parámetros de dichas funciones <br>
+      <input type="radio" name="r-s2"  class="quiz-2"> No tienen ningún fin                               <br>
+    </div>
+    <div>
+      <h3> ¿Qué significa DOM</h3>
+      <input type="radio" name="r-s3"  class="quiz-2"> Dual Object Model     <br>
+      <input type="radio" name="r-s3"  class="quiz-2"> Document Object Model <br>
+      <input type="radio" name="r-s3"  class="quiz-2"> Document Obsolet Model<br>
+    </div><br>
+
+    <input type="submit" value="ENVIAR" onclick ="respuestan2()">
+
+  </div>
+</div>
+</div>
+<!-- SPRINT 3 -->
+<div id="sprint-3">
+  <h4>Sprint 3: Continuara...</h4>
+</div>
+<script src="js/app.js">
+
+</script>
+</body>
+</html>
