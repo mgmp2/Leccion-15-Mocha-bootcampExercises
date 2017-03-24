@@ -1,0 +1,80 @@
+    .box-login{
+    top: 60%;
+    left:40%;
+    width: 220px;
+    height: 220px;
+    border-color: gray;
+    border-width: 1px;
+    padding: 20px 0;
+    border-style: solid;
+    display: inline-block;
+    margin: 30px 0 0 30px;
+    font-family: cursive;
+
+
+    }
+
+  .box-content{
+    background-color: #e5dada;
+    width: 200px;
+
+  }
+
+  input[type="button"]{
+    background-color: #ebedde  ;
+  }
+  span{
+    color: red;
+  }
+
+  .thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+
+  .field-content{
+    width: 100px;
+    height: 160px;
+  }
+  .publicado{
+    border-color: black;
+    margin: 10px 5px 0 0;
+    border-style: solid;
+    width: 750px;
+  }
+
+  .contenedor-contenido-pagina {
+  margin: 0 auto;
+  padding: 21px;
+  width: 1200px;
+  }
+  /*p{
+    width: 300px;
+    padding: 10px;
+  }*/
+  .option-content{
+    width: 100px;
+    height: 22px;
+  }
+
+  .box-select{
+    /*si tengo mi type="file" usar esta dimension
+    padding-left: 240px; */
+    padding-left: 480px;
+  }
+
+  .flechita select {
+
+
+}
+  #list{
+    margin: 0 auto;
+  }
+
+  a{
+    margin: 5px;
+  }
+  p{
+    padding: 20px;
+  }

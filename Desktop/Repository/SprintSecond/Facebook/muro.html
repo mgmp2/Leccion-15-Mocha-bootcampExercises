@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Muro!</title>
+</head>
+<body>
+  <div class="contenedor-contenido-pagina">
+    <header>
+      <div id="salir"align="right">
+        <a href="index.html">Salir</a>
+      </div>
+    </header>
+    <div id="usuario">
+
+    </div>
+
+    <fieldset class="field-content">
+      <textarea id="area" rows="8" cols="90" placeholder="¿Qué está pasando?"></textarea>
+
+      <div class="box-select flechita">
+        <!-- <input type="file" id="files" name="files[]" class="img-move" />
+        <output id="list"></output> -->
+        <select class="option-content" id="select" >
+          <option value="public">Public</option>
+          <option value="friends">Friends</option>
+        </select>
+        <input type="button" value="Publicar" onclick="createPost(area.value)">
+      </div>
+    </fieldset>
+    <label id="list"></label><br>
+
+
+
+    <div>
+      <a href="#"> Público</a>
+      <a href="#"> Amigos</a>
+    </div>
+    <div id="amigo-familia">
+
+    </div>
+
+  </div>
+
+  <script src="js/facebook.js">
+
+  </script>
+
+</body>
+</html>

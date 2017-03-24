@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/fonts/style.css">
+  <title>Document</title>
+</head>
+<body id="mostrar">
+  <header>
+    <div class = "header-content">
+      <div class = "text-right" >
+        <span class="icon-user">Signed in as
+          <a href="#"><label id="typeOfsigin" class="textA"></label></a>
+        </span>
+        <span class="icon-arrow-right"></span>
+    		<a id="salir" href="#" class="textA">Sign out </a>
+        <span class="icon-switch"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <span class="header-titulo">Cruise </span>
+    <div class = "header-option">
+      <ul class="menu">
+        <li><button type="button" id = "btnHelp"     name="button" class="icon-question"> HELP</button></li>
+        <li><button type="button" id = "btnAgents"   name="button" class="icon-users"   > AGENTS</button></li>
+        <li><button type="button" id = "btnCruise"   name="button"                      > MY CRUISE</button></li>
+        <li><button type="button" id = "btnDasboard" name="button"                      > DASBOARD</button></li>
+      </ul>
+    </div> <br><br>
+    <div class = "content-dasboard" id = "content-dasboard">
+
+    </div>
+    <div class = "content-myCruise" id = 'content-myCruise'>
+
+    </div>
+    <div class = "content-agents" id = 'content-agents'>
+      <div class="header-agents" id = "header-agents">
+        <label class="agents-text-left ">Agents</label>
+        <ul class="sub-menu">
+          <li><button type="button" id = "btnAll" class="btn-agents" name="all">All</button></li>
+          <li><button type="button" id = "btnPhysical" class="btn-agents" name="fisico">Physical</button></li>
+          <li><button type="button" id = "btnVirtual" class="btn-agents" name="virtual">Virtual</button></li>
+        </ul>
+      </div>
+      <br>
+    <div class="content-left" id = "content-left">
+        <!-- Aqui se insertan los div de agentes -->
+    </div>
+    <div class="content-right" id = "content-right">
+      <div class="content-table">
+        <h5>Summary</h5>
+        <table>
+            <tr>
+                <td>building</td>
+                <td id = 'total-building'>0</td>
+            </tr>
+            <tr>
+                <td>idle</td>
+                <td id = 'total-idle'>0</td>
+            </tr>
+        </table>
+        <hr>
+      </div>
+      <div class="content-history">
+        <h5>History</h5>
+        <div class="history-list">
+            <p>bjstdmngbgr02/Acceptance_test</p>
+            <p>bjstdmngbgr02/Acceptance_test</p>
+            <p>bjstdmngbgr02/Acceptance_test</p>
+            <p>bjstdmngbgr02/Acceptance_test</p>
+            <p>bjstdmngbgr02/Acceptance_test</p>
+        </div>
+    </div>
+
+  </div>
+    <div class = "content-help"></div>
+
+  </main>
+  <script src ='assets/js/usuarios.js'></script>
+  <script src = "assets/js/login.js"></script>
+  <script src = "assets/js/main.js"></script>
+
+</body>
+</html>
